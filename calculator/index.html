@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/calculator/style.css">
+    <script src="/calculator/script.js"></script>
+    <title>calculator</title>
+    
+</head>
+<body>
+    <h1> Project calculator</h1>
+    <div class="container">
+        <div class="calculator">
+            <div class="result">
+
+                    <label class="output" id="output_value"></label>
+            </div>
+            <div class="bttn">
+                <button class="empty" value="backspace" onclick="backspace()">C</button>
+                <button class="empty" value="clear" onclick="clearAll()">AC</button>
+                <button class="operator" value="%" onclick="insert('%')">%</button>
+                <button class="operator" value="/" onclick="insert('/')">/</button>
+                <button class="number" value="7" onclick="insert('7')">7</button>
+                <button class="number" value="8"onclick="insert('8')">8</button>
+                <button class="number" value="9" onclick="insert('9')">9</button>
+                <button class="operator" value="*" onclick="insert('*')">*</button>
+                <button class="number" value="4" onclick="insert('4')">4</button>
+                <button class="number" value="5" onclick="insert('5')">5</button>
+                <button class="number" value="6" onclick="insert('6')">6</button>
+                <button class="operator" value="-" onclick="insert('-')">-</button>
+                <button class="number" value="1" onclick="insert('1')">1</button>
+                <button class="number" value="2" onclick="insert('2')">2</button>
+                <button class="number" value="3" onclick="insert('3')">3</button>
+                <button class="operator" value="+" onclick="insert('+')">+</button>
+                <button class="empty" value=""></button>
+                <button class="number" value="0" onclick="insert('0')">0</button>
+                <button class="operator" value="dot" onclick="insert('.')">.</button>
+                <button class="operator" value="=" onclick="equal()">=</button>
+                
+                </div>
+        </div>
+    </div>
+
+    </body>
+</html>
